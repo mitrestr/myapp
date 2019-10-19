@@ -1,59 +1,107 @@
-body {
+body{
   margin: 0px;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
-
-.header {
-  background: #2b2b2b;
- 
+ul {
+  margin: 0;
+  padding: 0;
 }
 
+ul li {
+  list-style: none;
+}
+.header{
 
+font-family: 'Open Sans', Bold;
+background: #2b2b2b;
+margin-bottom: 90px;
+height: 75px;
+}  
+ul.menu__list{
+display: flex;
+padding-top:27px ;
+justify-content: center;
+}
+li.menu__item{
+list-style: none;
+padding-left: 17px;
+}
+.menu__item-g a{
+color:#fff;
+text-decoration: none;
+font-size: 14px;
+}
+.menu__item-img {
+display: inline-block;
+text-decoration: none;
+margin:auto;
+margin-right: 28.72px;
+}
+
+.logo__pic {
+position: absolute;
+top: 27px;
+left:10px;
+
+}
 .contacts {
-  position: relative;
-  color: #fff;
-  text-align: right;
-  top: -89px;
-
+position: absolute;
+right: 0;
+top: 0px;
+color: #fff;
+text-align: right;
+margin:10px;
 }
-.contacts__phone {
-  position: relative;
-  color: #fff;
-  position: absolute;
-  font-size: 21px;
-  font-weight: bold;
-  text-decoration: none;
-  top: -89px;
+.contacs__phone {
+color:#fff;
+font-size: 21px;
+font-weight: bold;
+text-decoration: none;
 }
-.contacts__hours {
-  position: relative;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-  opacity: .7;
-  top: -70px;
+.contacts__hours a{
+font-size: 14px;
+font-weight: bold;
+opacity: .7;
+color:#f89513;
 }
-
-
-.menu__item1 {
-  position: relative;
-
-margin: 7px;
+.run__man img{
+display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+.features{
+background: #131415;
+height: 572px;
+}
+.feature-text{
+color:white;
 text-align: center;
-top: -30px;
-
-
+margin-top:55px;
 }
-.menu__item1-g{
-position: relative;
-color: papayawhip;
-left: 50px;
-width: 299px;
-top: -15px;
-
-
+h4.uniqueness-item1,h4.uniqueness-item2,h4.uniqueness-item3{
+font-family: 'Open Sans', Extrabold;
+font-size: 10.78px;
 }
 
+li.uniqueness-item1{
+display : inline-block;
+color:white;
+font-family: 'Open Sans', Regular;
+font-size: 18px;
 
+}
+li.uniqueness-item2{
+display : inline-block; 
+color:white;
+font-family: 'Open Sans', Regular;
+font-size: 18px;
+text-align: center;
+}
+li.uniqueness-item3{
+display : inline-block;
+color:white;
+font-family: 'Open Sans', Regular;
+font-size: 18px;
+text-align: right;
+}
 
