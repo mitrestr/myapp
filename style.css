@@ -9,6 +9,7 @@ ul {
 
 ul li {
   list-style: none;
+  
 }
 .header{
 
@@ -73,35 +74,52 @@ display: block;
 background: #131415;
 height: 572px;
 }
-.feature-text{
+h1.feature-text{
+display:block;
+font-size: 49px;
+font-family: 'Open Sans', Bold;
 color:white;
 text-align: center;
-margin-top:55px;
+padding-top: 80px;
 }
-h4.uniqueness-item1,h4.uniqueness-item2,h4.uniqueness-item3{
+h4.uniqueness-item1{
 font-family: 'Open Sans', Extrabold;
 font-size: 10.78px;
 }
 
+ul.uniqueness-list{
+text-align: center;
+margin-right: 30px;
+}
 li.uniqueness-item1{
 display : inline-block;
 color:white;
 font-family: 'Open Sans', Regular;
 font-size: 18px;
-
-}
-li.uniqueness-item2{
-display : inline-block; 
-color:white;
-font-family: 'Open Sans', Regular;
-font-size: 18px;
 text-align: center;
+margin-right: 30px;
+margin-left: 30px;
+margin-top: 50px;
 }
-li.uniqueness-item3{
-display : inline-block;
-color:white;
-font-family: 'Open Sans', Regular;
-font-size: 18px;
-text-align: right;
-}
+div.uniqueness__img{
+margin:auto;
+background-color: #f89513;
+width: 50px;
+height: 50px;
+border-radius: 100%;
+position: relative;
 
+}
+img.uniqueness-img{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
+li.uniqueness-item1__1{
+margin-left: 20px;
+list-style-type: disc;
+padding-left: 24px;
+text-align: left;
+}
