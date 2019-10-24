@@ -1,6 +1,5 @@
 body{
-  margin: 0px;
-  font-size: 16px;
+  margin:0px;
 }
 ul {
   margin: 0;
@@ -12,37 +11,39 @@ ul li {
   
 }
 .header{
-
-font-family: 'Open Sans', Bold;
 background: #2b2b2b;
 margin-bottom: 90px;
 height: 75px;
 }  
 ul.menu__list{
-display: flex;
+text-align: center;
 padding-top:27px ;
-justify-content: center;
 }
+
 li.menu__item{
-list-style: none;
+display: inline-block;
 padding-left: 17px;
 }
-.menu__item-g a{
+.menu__item-g a {
+display: inline-block;
 color:#fff;
 text-decoration: none;
-font-size: 14px;
+font-size: 12px;
+font-family: 'Open Sans',Bold;
 }
-.menu__item-img {
+img.menu__item-img {
 display: inline-block;
-text-decoration: none;
-margin:auto;
-margin-right: 28.72px;
+text-align: center;
+padding-right: 27px;
 }
 
 .logo__pic {
 position: absolute;
 top: 27px;
 left:10px;
+font-size: 18.18px;
+font-family: 'Gora Free', Regular;
+color: #f89513;
 
 }
 .contacts {
@@ -75,12 +76,12 @@ background: #131415;
 height: 572px;
 }
 h1.feature-text{
-display:block;
+text-align:center;
 font-size: 49px;
 font-family: 'Open Sans', Bold;
 color:white;
-text-align: center;
-padding-top: 80px;
+padding-top: 60px;
+
 }
 h4.uniqueness-item1{
 font-family: 'Open Sans', Extrabold;
@@ -97,15 +98,18 @@ color:white;
 font-family: 'Open Sans', Regular;
 font-size: 18px;
 text-align: center;
-margin-right: 30px;
-margin-left: 30px;
-margin-top: 50px;
+margin-right: 80px;
+margin-left: 80px;
+margin-top: 60px;
+width:220px;
+height:220px;
+
 }
 div.uniqueness__img{
 margin:auto;
 background-color: #f89513;
-width: 50px;
-height: 50px;
+width: 70px;
+height: 70px;
 border-radius: 100%;
 position: relative;
 
@@ -122,4 +126,148 @@ margin-left: 20px;
 list-style-type: disc;
 padding-left: 24px;
 text-align: left;
+}
+
+h3.latest__news{
+padding: auto ;
+margin:auto;
+padding-top:70px;
+padding-bottom: 80px;
+text-align:center;
+color:#221f1f;
+font-family: 'Open Sans', Bold;
+font-size: 49px;
+}
+ul.last__news{
+text-align: left;
+margin:0;
+font-size: 18px;
+font-family: 'Roboto', Bold;
+width: 1500px;
+}
+.last__news1{
+font-size: 14px;
+font-family: 'Roboto', Light;
+
+}
+p.last__news1__message{
+font-size: 18px;
+font-family: 'Roboto', Light;
+}
+img.last__news1-jpg{
+float: left;
+margin-right: 20px;
+margin-bottom: 64px;
+margin-left:20px;
+}
+.clear-left {
+clear: left;
+}
+.clear-right {
+clear: right;
+}
+.sidebar {
+float: right;
+}
+li.image__month{
+margin-bottom:23px;
+margin-top:26px;
+}
+.top__news-text{
+font-family: 'Open Sans', Bold;
+color:#221f1f;
+font-size: 12px;
+}
+.top__news-month{
+font-family: 'Open Sans', Bold;
+color:#656464;
+font-size: 12px;
+}
+.pagination__item1 {
+text-align:center;
+text-decoration:none;
+margin-bottom: 68px;
+}
+.pagination__item {
+display: inline-block;
+margin-right: 20px;
+font-family: 'Roboto', Light;
+font-size: 14px;
+color:#656464;
+}
+.direction{
+display: inline-block;
+margin-right: 20px;
+}
+.pagination__item ul{ 
+display: inline-block;
+font-size: 55px;
+text-decoration: none;
+}
+.pagination__item li{
+float: left;
+margin-right:20px;
+font-family: 'Open Sans', Bold;
+font-size: 14px;
+font-size: 14px;
+text-decoration: none;
+}
+a.pagination__item1{
+text-decoration: none;
+border: solid 12px #27273e;
+background: #27273e;
+border-radius: 20%;
+margin-right:8px;
+font-family: 'Open Sans', Bold;
+font-size:14px;
+color:white
+
+
+}
+a.pagination__item{
+text-decoration: none; 
+font-family: 'Roboto', Bold;
+font-size: 12px;
+}
+footer{
+height: 77px;
+background: #2b2b2b;
+color: #ffffff;
+padding:0px;
+margin: 0px;
+
+}
+.author{
+width: 250px;
+padding: 10px;
+margin-left:10px;
+display:block;
+font-family: 'Open Sans', Light;
+font-size: 14px;
+}
+.logo-img1{
+position: absolute;
+width: 169px;
+top:2264px;
+left:800px;
+transform:translate(-50%,-50%);
+font-size: 18.18px;
+font-family: 'Gora Free', Regular;
+color: #f89513;
+}
+div.logo-img{
+display: inline-block; 
+text-align: center;
+}
+a.loftschool{
+color: #ffffff;
+font-family: 'Open Sans', Light;
+font-size: 14px;
+}
+a.contacs__icons2{
+display: inline-block;
+text-align: right;
+background-image:url(/footer/face.png);
+width: 7px;
+height: 12px;
 }
