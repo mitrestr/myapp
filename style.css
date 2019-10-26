@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 @font-face{
-font-family: 'Gora Free', Regular;
-src: url('/C:/Users/m12sinev/Desktop/прога/font/Gora-Free.ttf');
-}
+  font-family: 'Gora Free', Regular;
+  src: url('/C:/Users/m12sinev/Desktop/прога/font/Gora-Free.ttf');
+  }
+  @font-face{
+    font-family: 'Roboto', Bold;
+    src: url('/C:/Users/m12sinev/Desktop/прога/font/3955.ttf');
+    }
 body{
     margin:0px;
   }
@@ -20,7 +24,7 @@ body{
   margin-bottom: 90px;
   height: 75px;
 }  
-ul.menu__list{
+ul.menu__list { 
  text-align: center;
   padding-top:27px ;
  }
@@ -32,9 +36,9 @@ ul.menu__list{
 a.menu__item-g1{
   width: 25px;
   height: 18px;
-  display: inline-block;
+  display: block;
   padding-left:70px;
-  background: url('/header/main_icon\ —\ копия.png') no-repeat center ;
+  background: url('./header/main_icon\ —\ копия.png') no-repeat center ;
   
 }
 a.menu__item-g2{
@@ -44,7 +48,7 @@ a.menu__item-g2{
   display: inline-block;
   padding-left:70px;
   padding-top:6px;
-  background: url('/header/feed_icon\ —\ копия.png') no-repeat center ;
+  background: url('./header/feed_icon\ —\ копия.png') no-repeat center ;
  
 }
 a.menu__item-g3{
@@ -52,7 +56,7 @@ a.menu__item-g3{
   height: 18px;
   display: inline-block;
   padding-left:70px;
-  background: url('/header/service_icon\ —\ копия.png') no-repeat center ;
+  background: url('./header/service_icon\ —\ копия.png') no-repeat center ;
   
 }
 .menu__item-g > a {
@@ -93,17 +97,17 @@ a.menu__item-g3{
 }
 .run__man img{
   display: block;
-    margin-left: auto;
-    margin-right: auto
+  margin-left: auto;
+  margin-right: auto
 }
 .features{
   background: #131415;
   height: 572px;
 }
 h1.feature-text{
-text-align:center;
-font-size: 49px;
-font-family: 'Open Sans', Bold;
+  text-align:center;
+  font-size: 49px;
+  font-family: 'Open Sans', Bold;
   color:white;
   padding-top: 60px;
 
@@ -141,7 +145,7 @@ div.uniqueness__img{
 }
 img.uniqueness-img1{
   display: inline-block;
-  background: url('/особенности/flower.png') no-repeat center center;
+  background: url('./особенности/flower.png') no-repeat center center;
   width: 40px;
   height: 40px;
   position: absolute;
@@ -151,7 +155,7 @@ img.uniqueness-img1{
 }
   img.uniqueness-img2{
     display: inline-block;
-    background: url('/особенности/mark-as-favorite-star.png') no-repeat center center;
+    background: url('./особенности/mark-as-favorite-star.png') no-repeat center center;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -161,7 +165,7 @@ img.uniqueness-img1{
   }
   img.uniqueness-img3{
     display: inline-block;
-    background: url('/особенности/painter-palette.png') no-repeat center center;
+    background: url('./особенности/painter-palette.png') no-repeat center center;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -176,7 +180,7 @@ li.uniqueness-item1__1{
   text-align: left;
 }
 
-h3.latest__news{
+h3.latest__news { 
  padding: auto ;
  margin:auto;
  padding-top:70px;
@@ -195,7 +199,7 @@ ul.last__news{
 }
 p.last__news1__message{
   font-size: 18px;
-  font-family: 'Roboto Light';
+  font-family: 'Roboto',light;
 }
 img.last__news1-jpg{
   float: left;
@@ -228,16 +232,17 @@ li.image__month{
 }
 .pagination {
   margin-bottom: 60px;
-  font-family: Roboto Bold;
+  font-family: "Roboto", Bold;
   text-align: center;
 }
 .pagination__items {
   display: inline-block;
-  font-weight: bold;
+  font-family: "Roboto",Bold;
 }
 ul.pagination__items li{
-  font-family: "Roboto",Bold;
+  font-family: 'Roboto', Bold;
   color:#221f1f;
+  font-weight: bold;
 }
 .pagination a {
   text-decoration: none;
@@ -309,20 +314,20 @@ a.loftschool{
   height: 20px;
 }
 a.contacts__icons1 {
-  background-image:url(/footer/vk.png);
+  background-image:url(./footer/vk.png);
 }
 a.contacts__icons2 {
-  background-image:url(/footer/fb.png);
+  background-image:url(./footer/fb.png);
 }
 a.contacts__icons3 {
-  background-image:url(/footer/google.png);
+  background-image:url(./footer/google.png);
 }
 a.contacts__icons4 {
-  background-image:url(/footer/twitter.png);
+  background-image:url(./footer/twitter.png);
 }
 
 a.contacts__icons5 {
-  background-image:url(/footer/mail.png);
+  background-image:url(./footer/mail.png);
 }
 
 .contacts__icons > a:hover {
