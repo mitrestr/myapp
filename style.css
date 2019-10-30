@@ -187,7 +187,7 @@ ul li {
   text-align: left;
 }
 
-.latest__news_text {
+.latest__news_text{
   margin:50px 0px 70px 0px;
   text-align: center;
   color: #221f1f;
@@ -202,12 +202,20 @@ ul li {
   font-family: 'Roboto', Bold;
   width: 913px;
 }
-
+.last__news1{
+  font-size: 14px;
+  font-family: 'Roboto', light;
+  margin-bottom:15px;
+}
 .last__news1__message {
   font-size: 18px;
   font-family: 'Roboto', light;
 }
-
+.last__news1__heading{
+  font-family: 'Roboto', Bold;
+  font-size: 18px;
+  margin-bottom:15px;
+}
 .last__news1-jpg {
   float: left;
   margin-right: 20px;
