@@ -43,7 +43,7 @@ ul li {
 .header__content {
   text-align-last: justify;
 }
-.header__part {
+.header__part{
   display: inline-block;
   text-align-last: auto;
   vertical-align: middle;
@@ -66,6 +66,8 @@ ul li {
   padding-left: 30px;
   color: white;
   text-decoration: none;
+  font-family: 'Open Sans', Bold;
+  font-size: 12px;
 }
 .menu_g1 {
   background: url('./header/main_icon\ —\ копия.png') no-repeat left center;
@@ -278,9 +280,12 @@ margin-bottom: 64px;
   background: #27273e;
   border-radius: 3px;
   padding: 5px 10px;
-  color: white;
+  color:#f89513;;
   margin: 0px 5px;
   font-family: "Roboto", Bold;
+}
+.pagination__item:hover{
+  color: #f89513;
 }
 
 footer {
